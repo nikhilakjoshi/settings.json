@@ -1,0 +1,134 @@
+{
+  "editor.fontFamily": "'JetBrainsMono Nerd Font', monospace",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.lineNumbers": "relative",
+  "editor.cursorSurroundingLines": 10,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.colorCustomizations": {
+    "editor.selectionBackground": "#135564",
+    "editor.selectionHighlightBackground": "#13556480"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.guides.bracketPairs": "active",
+  "codesnap.transparentBackground": true,
+  "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 0px 0px",
+  "codesnap.containerPadding": "0.25em",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "workbench.colorTheme": "Tokyo Night Storm",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.formatting.provider": "none",
+  "editor.defaultColorDecorators": "auto",
+  "python.languageServer": "Pylance",
+  "window.zoomLevel": 2,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false
+  },
+  "svelte.enable-ts-plugin": true,
+  "codesnap.showLineNumbers": false,
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "workbench.startupEditor": "none",
+  "liveServer.settings.donotVerifyTags": true,
+  "git.openRepositoryInParentFolders": "never",
+  "go.toolsManagement.autoUpdate": true,
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "vim.leader": "<Space>",
+  "vim.easymotion": true,
+  "vim.hlsearch": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    { "before": ["<S-h>"], "commands": [":bprevious"] },
+    { "before": ["<S-l>"], "commands": [":bnext"] },
+    { "before": ["leader", "v"], "commands": [":vsplit"] },
+    { "before": ["leader", "s"], "commands": [":split"] },
+    {
+      "before": ["leader", "h"],
+      "commands": ["workbench.action.focusLeftGroup"]
+    },
+    {
+      "before": ["leader", "j"],
+      "commands": ["workbench.action.focusBelowGroup"]
+    },
+    {
+      "before": ["leader", "k"],
+      "commands": ["workbench.action.focusAboveGroup"]
+    },
+    {
+      "before": ["leader", "l"],
+      "commands": ["workbench.action.focusRightGroup"]
+    },
+    { "before": ["leader", "w"], "commands": [":w!"] },
+    { "before": ["leader", "q"], "commands": [":q!"] },
+    { "before": ["leader", "x"], "commands": [":x!"] },
+    //comment code
+    { "before": ["[", "d"], "commands": ["editor.action.marker.prev"] },
+    { "before": ["]", "d"], "commands": ["editor.action.marker.next"] },
+    { "before": ["leader", "c", "a"], "commands": ["editor.action.quickFix"] },
+    { "before": ["leader", "f"], "commands": ["workbench.action.quickOpen"] },
+    { "before": ["leader", "z"], "commands": ["editor.action.toggleWordWrap"] },
+    {
+      "before": ["leader", "t"],
+      "commands": ["workbench.action.terminal.new"]
+    },
+    {
+      "before": ["leader", "p"],
+      "commands": ["editor.action.formatDocument"]
+    },
+    {
+      "before": ["g", "h"],
+      "commands": ["editor.action.showDefinitionPreviewHover"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    { "before": ["<"], "commands": ["editor.action.outdentLines"] },
+    { "before": [">"], "commands": ["editor.action.indentLines"] },
+    { "before": ["J"], "commands": ["editor.action.moveLinesDownAction"] },
+    { "before": ["K"], "commands": ["editor.action.moveLinesUpAction"] },
+    { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
+  ],
+  "css.validate": false,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "python.createEnvironment.trigger": "off",
+  "editor.accessibilitySupport": "off",
+  "terminal.integrated.inheritEnv": true,
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "python.defaultInterpreterPath": "/opt/homebrew/Caskroom/miniconda/base",
+  "security.workspace.trust.untrustedFiles": "open",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "explorer.confirmDelete": false,
+  "chat.tools.terminal.autoApprove": {
+    "mv": true,
+    "npm x": true,
+    "npm install": true,
+    "npx": true,
+    "npm list": true
+  }
+}
